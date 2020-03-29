@@ -1,0 +1,56 @@
+{
+	"@context": [
+		"http://iiif.io/api/presentation/2/context.json",
+		"http://files.universalviewer.io/ld/ixif/0/context.json"
+	],
+	"@id": "https://nakamura196.github.io/iiif-3d/thekiss/manifest.json",
+	"@type": "sc:Manifest",
+	"label": "The Kiss",
+	"description": "Soap stone statuette of Rodin's The Kiss. Found at Snooper's Paradise in Brighton UK.",
+	"thumbnail": {
+		"@id": "https://nakamura196.github.io/iiif-3d/thekiss/thumb.jpg"
+	},
+	"license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+	"attribution": "Sample",
+	"metadata": [
+		{
+			"label": "Title",
+			"value": "The Kiss"
+		},
+		{
+			"label": "Identifier",
+			"value": "004491f2-3119-4018-be0d-ae6146750470"
+		},
+		{
+			"label": "Publisher",
+			"value": "3Dサンプルコレクション"
+		},
+		{
+			"label": "attributionLabel",
+			"value": [
+				"Sample",
+				"サンプル"
+			]
+		},
+		{
+			"label": "Date",
+			"value": "2015-11-27"
+		}
+	],
+	"mediaSequences": [
+		{
+			"@id": "https://nakamura196.github.io/iiif-3d/thekiss/manifest.json/sequence/s0",
+			"@type": "ixif:MediaSequence",
+			"label": "XSequence 0",
+			"elements": [
+				{
+					"@id": "https://nakamura196.github.io/iiif-3d/thekiss/thekiss.json",
+					"@type": "dctypes:PhysicalObject",
+					"format": "application/vnd.threejs+json",
+					"label": "The Kiss",
+					"thumbnail": "https://nakamura196.github.io/iiif-3d/thekiss/thumb.jpg"
+				}
+			]
+		}
+	]
+}
