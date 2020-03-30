@@ -1,0 +1,55 @@
+{
+	"@context": [
+		"http://iiif.io/api/presentation/2/context.json",
+		"http://files.universalviewer.io/ld/ixif/0/context.json"
+	],
+	"@id": "https://nakamura196.github.io/iiif-3d/hyakki/manifest.json",
+	"@type": "sc:Manifest",
+	"label": "百鬼夜行絵巻",
+	"thumbnail": {
+		"@id": "https://nakamura196.github.io/iiif-3d/hyakki/thumb.jpg"
+	},
+	"license": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+	"attribution": "Sample",
+	"metadata": [
+		{
+			"label": "Title",
+			"value": "百鬼夜行絵巻"
+		},
+		{
+			"label": "Identifier",
+			"value": "b7f1e298-4d07-4967-93eb-dcb3d887073b"
+		},
+		{
+			"label": "Publisher",
+			"value": "3Dサンプルコレクション"
+		},
+		{
+			"label": "References",
+			"value": "https://nakamura196.github.io/iiif-3d/hyakki/manifest.json"
+		},
+		{
+			"label": "attributionLabel",
+			"value": [
+				"Sample",
+				"サンプル"
+			]
+		}
+	],
+	"mediaSequences": [
+		{
+			"@id": "https://nakamura196.github.io/iiif-3d/hyakki/manifest.json/sequence/s0",
+			"@type": "ixif:MediaSequence",
+			"label": "XSequence 0",
+			"elements": [
+				{
+					"@id": "https://nakamura196.github.io/iiif-3d/hyakki/hyakki.json",
+					"@type": "dctypes:PhysicalObject",
+					"format": "application/vnd.threejs+json",
+					"label": "百鬼夜行絵巻",
+					"thumbnail": "https://nakamura196.github.io/iiif-3d/hyakki/thumb.jpg"
+				}
+			]
+		}
+	]
+}
